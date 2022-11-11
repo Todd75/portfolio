@@ -31,8 +31,8 @@ html {
 
 header {
 	position: relative;
-	height: 520px;
-	min-height: 450px;
+	height: 300px;
+	min-height: 200px;
 	width: 100%;
 	background-size: cover;
 	-webkit-background-size: cover;
@@ -43,7 +43,7 @@ header {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	padding-top: 150px;
+	padding-top: 10px;
 	padding-bottom: 0;
 }
 
@@ -188,7 +188,7 @@ header h1 {
 }
 
 .polaroid span {
-	background: #ffffff;
+	background: antiquewhite;
 	display: inline-block;
 	margin: 55px 75px 30px;
 	padding: 15px 15px 30px;
