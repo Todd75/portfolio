@@ -389,7 +389,8 @@ header h1 {
 }
 
 #skills {
-	background: #1F1F1F;
+	background-image: url("../public/images/portfolio/background-images/bison.jpg");
+	// background: #1F1F1F;
 	min-height: 200px;
 	width: 100%;
 	overflow: hidden;
@@ -401,7 +402,7 @@ header h1 {
 	padding-bottom: 5%;
 	font: 18px/24px 'opensans-bold', sans-serif;
 	text-transform: uppercase;
-	letter-spacing: 3px;
+	letter-spacing: 5px;
 	color: #fff;
 	text-align: center;
 }
@@ -414,7 +415,7 @@ header h1 {
 }
 
 footer {
-	background: #1F1F1F;
+	background: #6C786B;
 	min-height: 100px;
 	width: 100%;
 	overflow: hidden;
