@@ -3,6 +3,7 @@ import { Icon } from "@iconify/react";
 import pythonIcon from "@iconify/icons-logos/python";
 import reactIcon from "@iconify/icons-logos/react";
 import css3Icon from "@iconify/icons-logos/css-3";
+import "../App.scss";
 
 class About extends Component {
   render() {
@@ -81,7 +82,61 @@ class About extends Component {
                     <span className="wave">{hello} 🚀 </span>
                     <br />
                     <br />
-                    {about}
+                    <span id="aboutMeSpan">I'm Todd Wolden and I am a Software Developer. For the last six years I have been running my own cryptocurrency mining business, however with the changes in Ethereum's mining protocol I decided to close down my operation in early 2022. Because I had already been writing a small amount of code for my business it was a natural progression for me to explore coding as a career possibility. I have a deep interest in machine learning and data storage so I gravitated towards Python as a focus. I think a perfect environment for me as a new coder is an environment where I can be exposed to new challenges and grow my coding abilities while using my existing coding skills to further the company's mission and growth. My background in customer service makes me an ideal person for collaborative work in any team scenario.</span>
+                    <container id="aboutMeBackground">
+                      <div class="stars">
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                      </div>
+                    </container>
                   </div>
                 </div>
               </div>

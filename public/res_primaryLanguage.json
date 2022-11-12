@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hello!",
-      "description": "👋 I'm Todd Wolden and I am a Software Developer. For the last six years I have been running my own cryptocurrency mining business, however with the changes in Ethereum's mining protocol I decided to close down my operation in early 2022. Because I had already been writing a small amount of code for my business it was a natural progression for me to explore coding as a career possibility. I have a deep interest in machine learning and data storage so I gravitated towards Python as a focus. I think a perfect environment for me as a new coder is an environment where I can be exposed to new challenges and grow my coding abilities while using my existing coding skills to further the company's mission and growth. My background in customer service makes me an ideal person for collaborative work in any team scenario. 💜",
+      "description": "👋 I'm Todd Wolden and I am a Software Developer. Thank you 💜",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -103,7 +103,7 @@
       },
       {
         "company": "Brokenhammer Inc",
-        "title": "",
+        "title": "Intern",
         "years": "01.2016 - 02.2022",
         "mainTech": [
           "linux"
