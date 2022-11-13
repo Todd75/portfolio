@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Switch from "@brookr/react-switch";
+// import Switch from "@brookr/react-switch";
 import Nav from 'react-bootstrap/Nav'
 import { LinkContainer } from "react-router-bootstrap";
 import "../App.scss";
@@ -32,9 +32,9 @@ class Header extends Component {
       this.titles = this.props.sharedData.titles; //...map(x => [ x.toUpperCase(), 1500 ] ).flat();
     }
 
-    const HeaderTitleTypeAnimation = React.memo( () => {
-      return this.titles
-    }, (props, prevProp) => true);
+    // const HeaderTitleTypeAnimation = React.memo( () => {
+    //   return this.titles
+    // }, (props, prevProp) => true);
 
     return (
       <header id="home" style={{ height: window.innerHeight - 2000, display: 'block' }}>
