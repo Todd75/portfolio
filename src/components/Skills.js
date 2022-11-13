@@ -33,7 +33,8 @@ class Skills extends Component {
             </h1>
           </div>
           <div className="col-md-12 text-center">
-            <ul className="list-inline mx-auto skill-icon">{skills}</ul>
+            <ul id="skillsIcons{skills}" className="list-inline mx-auto skill-icon">{skills}</ul>
+             
           </div>
         </div>
       </section>

@@ -1,6 +1,6 @@
 {
     "basic_info": {
-      "description_header": "Hello!",
+      "description_header": "Hello There!",
       "description": "👋 I'm Todd Wolden and I am a Software Developer. Thank you 💜",
       "section_name": {
         "about": "About me",
@@ -103,13 +103,13 @@
       },
       {
         "company": "Brokenhammer Inc",
-        "title": "Intern",
+        "title": "",
         "years": "01.2016 - 02.2022",
         "mainTech": [
-          "linux"
+          "Linux"
         ],
         "technologies": [
-          "linux",
+          "Linux",
           "Solidity"
         ]
       }

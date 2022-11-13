@@ -56,7 +56,7 @@ class Header extends Component {
               <Nav.Link eventKey="about" id="aboutLink">About</Nav.Link>
             </LinkContainer>
           </Nav.Item>
-          <Nav.Item>
+          {/* <Nav.Item>
             <Switch 
               checked={this.state.checked}
               onChange={this.onThemeSwitchChange}
@@ -97,14 +97,14 @@ class Header extends Component {
               }
               id="icon-switch"
             />
-          </Nav.Item>
+          </Nav.Item> */}
         </Nav>
         <div className="row aligner" style={{height: '100%'}}>
           <div className="col-md-12">
             <div>
-              <span className="iconify header-icon" data-icon="la:laptop-code" data-inline="false"></span>
+              <span id="spanStuff" className="iconify header-icon" data-icon="la:laptop-code" data-inline="false">Created by Software Developer:</span>
               <br/>
-              <h1 className="mb-0">
+              <h1 className="mb-0" id="nameTitle">
                 {name}
               </h1>
               {/* <div className="title-container">

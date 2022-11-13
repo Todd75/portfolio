@@ -13,16 +13,19 @@ html {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	
 }
 
-// .title-container {
-// 	height: 150px;
-// 	background-color: #e9d5a1;
-// }
+.title-container {
+	color: white;
+	height: 150px;
+	background-color: #e9d5a1;
+}
 
 .title-styles {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'cursive', sans-serif;
 	font-size: 250%;
+	color: white;
 }
 
 // .header-icon {
@@ -31,15 +34,20 @@ html {
 // }
 
 header {
+	// background-image: url(../public/images/portfolio/milky-way-2695569__340.jpg);
+	// background-image: linear-gradient(to top, #0c0929, url(../public/images/portfolio/spaceImage.jpg), #010115);
+	opacity: 1;
 	position: relative;
-	height: 200px;
-	min-height: 200px;
+	height: 350px;
+	min-height: 250px;
+	color: white;
 	width: 100%;
 	background-size: cover;
 	-webkit-background-size: cover;
 	text-align: center;
+	color: white;
 	overflow: hidden;
-	background-image: radial-gradient(ellipse at bottom, #0d1d31 0%, #0c0d13 100%);
+	background-image: linear-gradient(to top, #000000 5%, #560101 100%);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -53,9 +61,14 @@ header .nav {
 	font-weight: bold;
 	text-transform: uppercase;
 	letter-spacing: 5px;
-	color: red;
 }
-
+#textDiv {
+	animation: fade-in 15s;
+	color: #560101;
+	font-weight: bold;
+	font-style: italic;
+	background-image: linear-gradient(to top, #6b6969 5%, #d5cdcd 100%);
+}
 // .github-corner:hover .octo-arm {
 // 	animation:octocat-wave 560ms ease-in-out
 // }
@@ -75,12 +88,13 @@ header .nav {
 	z-index: -500;
 	border-top: 5px solid #696969;
 	border-radius: 0 0 5px 5px;
-	background-color: #696969;
-	color: white;
+	background-color: antiquewhite;
+	color: #5a1708;
+	font-weight: bold;
 }
 
 .skills-tile {
-	background-color: transparentize(#F8F5F4, 0.95);
+	background-color: transparentize(#F8F5F4, 1);
 	padding: 10px 10px 5px 10px;
 	width: 100px;
 	margin: 5px 0 5px 0;
@@ -98,8 +112,8 @@ header h1 {
 	font-size: 400%;
 	text-align: center;
 	font-weight: 600 !important;
-	color: #353239;
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: white;
+	font-family: 'cursive', 'Arial Narrow', Arial, sans-serif;
 	margin: 0 auto 18px auto;
 	width: 100%;
 }
@@ -125,14 +139,18 @@ header h1 {
 #about {
 	overflow: hidden;
 	height: 75vh;
-}
+	// background-color: red;
+	background: linear-gradient(to top, #040405, #5a1708, #000102);
+	// background-image: url(../public/images/portfolio/spaceImage.jpg);
+}   // background-image: linear-gradient(to top, #0c0929, url(../public/images/portfolio/spaceImage.jpg), #010115);
 
 #about h1 {
 	padding-top: 10%;
 	font: 18px/24px 'opensans-bold', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 3px;
-	color: black;
+	
+	
 	text-align: center;
 }
 
@@ -142,20 +160,21 @@ header h1 {
 }
 
 .foto div {
-	background: #ffffff;
+	background: rgb(155, 91, 7);
 	display: inline-block;
 	margin: 0 auto 5% auto;
 	padding: 10px 10px 5px;
 	text-align: center;
 	text-decoration: none;
-	-webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
-	-moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
-	box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+	-webkit-box-shadow: 0 5px 8px rgba(0, 0, 0, .3);
+	-moz-box-shadow: 0 5px 8px rgba(0, 0, 0, .3);
+	box-shadow: 0 5px 8px rgba(0, 0, 0, .3);
 	-webkit-transition: all .20s linear;
 	-moz-transition: all .20s linear;
 	transition: all .20s linear;
 	z-index: 0;
 	position: relative;
+	color: blue;
 }
 
 .foto div:after {
@@ -181,32 +200,42 @@ header h1 {
 	font: 18px/24px 'opensans-bold', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 3px;
-	color: black;
+	color: #560101;
 	text-align: center;
+	font-weight: 700;
+
 }
 
 .polaroid img {
 	display: block;
-	max-width: 225px;
+	max-width: 275px;
 }
 
 .polaroid span {
-	background: antiquewhite;
+	background-image: linear-gradient(to top, #6b6969 5%, #d5cdcd 100%);
+	// background: antiquewhite;
 	display: inline-block;
 	margin: 55px 75px 30px;
 	padding: 15px 15px 30px;
 	text-align: center;
 	text-decoration: none;
-	-webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
-	-moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
-	box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+	-webkit-box-shadow: 0 7px 10px rgba(0, 0, 0, .3);
+	-moz-box-shadow: 0 7px 10px rgba(0, 0, 0, .3);
+	box-shadow: 0 7px 10px rgba(0, 0, 0, .3);
 	-webkit-transition: all .20s linear;
 	-moz-transition: all .20s linear;
 	transition: all .20s linear;
 	z-index: 0;
 	position: relative;
+	animation: fade-in 17s;
 }
+div.card {
+	animation: fade-in 10s;
+}
+div.card-header {
+	background-color: #d5cdcd;
 
+}
 .link-href {
 	color: black;
 }
@@ -234,7 +263,9 @@ header h1 {
 }
 
 #resume {
-	background: #efe1bd;
+	// background: grey;
+	background-image: linear-gradient(to top, black, #560101, #020304);
+	color: white;
 }
 
 .experience-icon {
@@ -249,7 +280,7 @@ header h1 {
 	padding: 5px 8px 5px 8px !important;
 	vertical-align: baseline;
 	background-color: #AE944F !important;
-	color: white;
+	color: antiquewhite;
 	font-weight: lighter !important;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -259,15 +290,18 @@ header h1 {
 	text-align: left !important;
 	padding: 5px 8px 5px 8px !important;
 	vertical-align: baseline;
-	background-color: #f9f5e9 !important;
+	background-color: antiquewhite !important;
 	color: black;
 	font-weight: lighter !important;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .vertical-timeline-element-date {
+	color: white;
 	padding: 0 !important;
 	margin: 0 !important;
+	font-weight: bold;
+	
 }
 
 @media only screen and (max-width: 1170px) {
@@ -275,14 +309,16 @@ header h1 {
 		font-size: 170%;
 		margin-top: 27%;
 		text-align: center;
+		color: yellow;
 	}
 }
 
 .modal-inside .modal-content {
-	background: white;
+	background: antiquewhite;
 }
 
 .bars {
+	
 	width: 95%;
 	float: left;
 	padding: 0;
@@ -304,7 +340,7 @@ header h1 {
 
 .bars li em {
 	font: 15px 'opensans-bold', sans-serif;
-	color: #313131;
+	color: #560101;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	font-weight: normal;
@@ -356,7 +392,7 @@ header h1 {
 }
 
 #portfolio {
-	background: #efe1bd;
+	background: antiquewhite;
 	padding-bottom: 5%;
 }
 
@@ -380,6 +416,7 @@ header h1 {
 
 .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
 	font-size: 1.5rem;
+
 }
 
 @media (min-width: 576px) {
@@ -392,7 +429,8 @@ header h1 {
 }
 
 #skills {
-	background: #1F1F1F;
+	background-image: linear-gradient(to bottom,#560101 0%, #020304 100%);
+	// background: #1F1F1F;
 	min-height: 200px;
 	width: 100%;
 	overflow: hidden;
@@ -415,10 +453,23 @@ header h1 {
 	color: white;
 	text-align: center;
 	position: relative;
+	border: 2px solid transparent;
+}
+.skill-icon:hover {
+	color: #de5302;
+	// border: 2px solid orange;
+	// -webkit-transform: scale(1.01);
+	// -moz-transform: scale(1.01);
+	// transform: scale(1.01);
+	// z-index: 10;
+	// -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+	// -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+	// box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
 }
 
 footer {
-	background-image: radial-gradient(ellipse at bottom, #0d1d31 0%, #0c0d13 100%);
+	background-image: linear-gradient(to top, #5d2c00 5%, #030305 60%);
+	// background-image: url(../public/images/portfolio/milky-way-2695569__340.jpg);
 	min-height: 100px;
 	width: 100%;
 	overflow: hidden;
@@ -433,16 +484,9 @@ footer a:visited {
 	color: #fff;
 }
 
-footer a:hover,
-footer a:focus {
-	color: #fff;
-	animation: heartbeat 1s infinite;
-}
-
 .social-links {
 	margin-top: 10px;
 	font-size: 22px;
-	
 }
 @keyframes heartbeat {
     0% {
@@ -457,8 +501,7 @@ footer a:focus {
         transform: scale(.9)
     }
 }
-#aboutMeBackground {
-	// 
+#aboutMeBackground { 
 	@mixin sp-layout {
 		@media screen and (max-width: 750px) {
 		  @content;
@@ -472,7 +515,7 @@ footer a:focus {
 		justify-content: center;
 		align-items: center;
 		min-height: 100vh;
-		background-image: radial-gradient(ellipse at bottom, #0d1d31 0%, #0c0d13 100%);
+		// background-image: radial-gradient(ellipse at bottom, #0d1d31 0%, #0c0d13 100%);
 		overflow: hidden;
 		
 	  }
@@ -484,6 +527,7 @@ footer a:focus {
 	  }
 	  
 	  .stars {
+		color: white;
 		position: fixed;
 		top: 0;
 		left: 0;
@@ -584,8 +628,67 @@ footer a:focus {
 	color: white;
 }
 #homeLink:hover {
-	color: red;
+	color: #de5302;
 }
 #aboutLink:hover {
-	color: red;
+	color: #de5302;
 }
+#projectsDivBackground {
+	// background-image: url(../public/images/portfolio/milky-way-2695569__340.jpg);
+	color: white;
+}
+#portfolio {
+	// background-color: red;
+	color: white;
+	background-image: linear-gradient(to top, #560101 0%, #020304 90%);
+	// background-image: url(../public/images/portfolio/milky-way-2695569__340.jpg);
+}
+#socialIcons:hover {
+	animation: heartbeat 1.3s infinite;
+	color: #de5302;
+}
+#socialIcons {
+	float: left;
+	margin: 1rem;
+}
+#nameTitle {
+	font-size: 5rem;
+	font-family: script;
+}
+#spanStuff {
+	font-style: italic;
+}
+h3 {
+	color: black;
+}
+h4 {
+	color: black;
+}
+#aboutMeSpan {
+	color: #5a1708;
+	font-weight: 600;
+	font-style: oblique;
+	font-size: large;
+}
+@keyframes fade-in {
+	0% {
+	  opacity: 0%;
+	  /* }
+	25% {
+		opacity: 25%
+	}
+	50% {
+		opacity: 50%
+	}
+	75% {
+		opacity: 75% */
+	}
+  
+	100% {
+	  opacity: 100%
+	}
+  }
+  #textDiv {
+	padding: 9px;
+
+  }
