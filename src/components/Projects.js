@@ -20,7 +20,7 @@ class Projects extends Component {
       var sectionName = this.props.resumeBasicInfo.section_name.projects;
       var projects = this.props.resumeProjects.map(function (projects) {
         return (
-          <div
+          <div id="projectsDivBackground"
             className="col-sm-12 col-md-6 col-lg-4"
             key={projects.title}
             style={{ cursor: "pointer" }}
@@ -50,7 +50,7 @@ class Projects extends Component {
     return (
       <section id="portfolio">
         <div className="col-md-12">
-          <h1 className="section-title" style={{ color: "black" }}>
+          <h1 className="section-title" style={{ color: "white" }}>
             <span>{sectionName}</span>
           </h1>
           <div className="col-md-12 mx-auto">

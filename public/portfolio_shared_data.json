@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "name": "Todd Wolden",
-      "titles": [ "Software Developer" ],
+      "titles": [ "" ],
       "social": [
         {
           "name": "github",
@@ -46,6 +46,11 @@
         {
           "name": "Bootstrap",
           "class": "devicon-bootstrap-plain",
+          "level": "85"
+        },
+        {
+          "name": "Linux",
+          "class": "devicon-linux-plain",
           "level": "85"
         }
         
